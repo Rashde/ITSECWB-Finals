@@ -36,8 +36,8 @@
 
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/your-username/archers-market.git
-cd archers-market
+git clone https://github.com/airnoners/CCAPDEVFINALS.git
+cd CCAPDEVFINALS
 ```
 
 2. **Install dependencies**  
@@ -48,24 +48,20 @@ npm install
 3. **Set up environment variables**  
 Create a `.env` file in the root with the following:
 ```
-MONGODB_URI=mongodb://localhost:27017/archersmarket
-SESSION_SECRET=supersecretkey
-NODE_ENV=development
+SESSION_SECRET=59c3541857e04dfcf3cbb82664b2689942c2854544586b0a41a6ec0db1abb4b5
+MONGO_URI=mongodb+srv://Rhyze:EthosLab89@rashde.rwumx.mongodb.net/archersmarket_db?retryWrites=true&w=majority
+
 ```
 
-4. **Start MongoDB (if local)**  
-```bash
-mongod
-```
 
-5. **Run the server**
+4. **Run the server**
 ```bash
 npm start
 # or
 node server.js
 ```
 
-6. **Visit the site**
+5. **Visit the site**
 ```
 http://localhost:3000
 ```
